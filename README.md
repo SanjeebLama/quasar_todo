@@ -1,6 +1,12 @@
 # Quasar App (qtodo)
 
-A Quasar Framework app
+A simple todo app built in Quasar: 
+
+# TODO APP with CRUD functionality
+Screenshot:
+
+![](src/assets/screenshots.png)
+
 
 ## Install the dependencies
 ```bash
