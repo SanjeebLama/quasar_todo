@@ -1,9 +1,11 @@
 <template>
-  <div class=" text-center">
-    <p class="text-h3 q-mt-lg">{{ msg }}</p>
+  <div class="text-center">
+    <p class="text-h3 q-mt-lg text-primary">{{ msg }}</p>
     <div class="row">
       <div class="FORM col-md-6 q-pa-xl">
-        <label class="text-h6"> {{ isEditing ? "Edit" : "Add" }} Task</label>
+        <label class="text-h6 text-secondary">
+          {{ isEditing ? "Edit" : "Add" }} Task</label
+        >
         <!-- =================================================================== -->
         <!-- Form For Adding and Editing Task-->
         <!-- =================================================================== -->

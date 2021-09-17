@@ -3,7 +3,7 @@
     <!-- =================================================================== -->
     <!-- Filter Tasks -->
     <!-- =================================================================== -->
-    <p class="text-h6 ">Finish What You Listed</p>
+    <p class="text-h6 text-secondary">Finish What You Have Listed</p>
     <!-- <q-input
       outlined
       type="text"
@@ -96,7 +96,7 @@ export default {
         {
           name: "desc",
           required: true,
-          label: "name ",
+          label: "Title ",
           align: "left",
           field: row => row.name,
           format: val => `${val}`,
